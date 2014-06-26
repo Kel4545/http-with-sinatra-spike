@@ -1,0 +1,11 @@
+<p></p><a href="/items/new">New Items!</a></p>
+
+<ul>
+  <% @filtered_items.each_with_index do |item, index| %>
+
+    <li><a href="/items/ <%= index %>"><%= item %></a></li>
+  <% end %>
+</ul>
+
+
+<img src= "http://25.media.tumblr.com/tumblr_m8ii7qpl5F1rdt98to1_500.gif">
